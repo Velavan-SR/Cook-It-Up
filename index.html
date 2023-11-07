@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet">
+    <title>Cook It Up !</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+      <div class="header-left">
+          <img src="pic/eating.png" id="Logo">
+          <h1>COOK IT UP !</h1>
+      </div>
+      <div class="header-right">
+          <img src="pic/search.png" id="search">
+          <input type="text" placeholder="Category..." id="input" onkeydown="handleKeyPress(event)">
+      </div>
+
+  </header>
+
+  <main>
+       
+    <div class="first-half">
+        <div id = 'modal'>
+            <div class="modal-content">
+                <div class="modal-head">
+                    <div class="empty-div"></div>
+                    <div><h1>Ingredients</h1></div>
+                    <div id="close"><h3>Close</h3></div>
+                </div>
+                <div id="modal-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="message">
+            <h2>Looking For Something New To Cook Today ?</h2>
+        </div>
+        <div class="message">
+            <h2>Stop Thinking . Just COOK THIS UP !</h2>
+        </div>
+        <div>
+            <img  id="random-dish" >  
+        </div>
+        <div>
+            <h1 id="dish-name"></h1>
+        </div>
+    </div>
+
+    <div class="category-bar">
+        <p>Category : <span id="category"></p>
+    </div>
+
+    <div id="second-half">
+
+    </div>
+
+  </main>
+  
+  <footer class="footer">
+      
+    <h2>Divided by whatever, United by Hunger</h2>
+    <img id="heart" src="pic/heart.png">
+  
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
