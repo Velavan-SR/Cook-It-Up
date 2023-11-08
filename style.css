@@ -230,4 +230,12 @@ input{
     .dish{
         flex: 0 0 calc(50% - 20px);
     }
+
+    .modal-content{
+        width: 75vw;
+    }
+
+    .ingredient{
+        width: 45vw;
+    }
 }
