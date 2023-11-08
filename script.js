@@ -12,6 +12,11 @@ closeButton.addEventListener('click',() => {
     modal.style.display = 'none';
 })
 
+document.addEventListener("click", (event) => {
+    if (event.target === modal && modal.style.display==='block') {
+      modal.style.display = 'none';
+    }
+});
 
 function getRandomMeal(){
 
