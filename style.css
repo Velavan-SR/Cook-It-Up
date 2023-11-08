@@ -87,6 +87,7 @@ input{
 #random-dish{
     height: 25vh;
     width: 15vw;
+    border-radius: 10px;
 }
 .first-half{
     height: 60vh;
@@ -109,6 +110,7 @@ input{
 .dish img{
     height: 25vh;
     width: 15vw;
+    border-radius: 8.5px;
 }
 .dish p{
     font-size: larger;
